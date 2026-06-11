@@ -13,8 +13,13 @@ Construire un système complet de **classification binaire** pour prédire `plac
 ```text
 ├── main.py
 ├── requirements.txt
+├──modeles/
+│   ├── LogisticRegressionCustom.py
+│   ├── RandomForestCustom.py
+│   └── SVM.py
 ├── notebooks/
 │   └── student_placement_analysis.ipynb
+├──outputs/
 ├── src/
 │   ├── data_cleaning.py
 │   ├── model_training.py
